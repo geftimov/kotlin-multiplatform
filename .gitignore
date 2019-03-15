@@ -1,0 +1,12 @@
+.gradle
+local.properties
+.idea/
+build
+*.iml
+*.hprof
+captures
+.DS_Store
+app/src/debug/gen
+app/src/main/gen
+/config-repo/
+node-modules/
