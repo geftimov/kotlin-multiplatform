@@ -31,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B4926D222425FCE00AE7D92 /* main.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = main.framework; path = "../../common/build/xcode-frameworks/main.framework"; sourceTree = "<group>"; };
+		1B4926D222425FCE00AE7D92 /* main.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = main.framework; path = "../common/build/xcode-frameworks/main.framework"; sourceTree = "<group>"; };
 		47CC68B9215C0386001B3A20 /* KotlinIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CC68BC215C0386001B3A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47CC68BE215C0386001B3A20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd $SRCROOT/../../common/build/xcode-frameworks/\n./gradlew :common:packForXCode  -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
+			shellScript = "cd $SRCROOT/../common/build/xcode-frameworks/\n./gradlew :common:packForXCode  -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -328,7 +328,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/../../common/build/xcode-frameworks",
+					"$(SRCROOT)/../common/build/xcode-frameworks",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = KotlinIOS/Info.plist;
@@ -352,7 +352,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/../../common/build/xcode-frameworks",
+					"$(SRCROOT)/../common/build/xcode-frameworks",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = KotlinIOS/Info.plist;
