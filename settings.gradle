@@ -1,2 +1,2 @@
-include ':app', ':SharedCode'
+include ':android', ':common'
 rootProject.name='Developers'
