@@ -1,5 +1,5 @@
 import UIKit
-import SharedCode
+import main
 
 class ViewController: UIViewController {
 

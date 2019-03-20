@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B46BBB9223E29DB005C5C98 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B46BBB8223E29DB005C5C98 /* SharedCode.framework */; };
-		1B46BBBA223E29DB005C5C98 /* SharedCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B46BBB8223E29DB005C5C98 /* SharedCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1BA8606D22424E2F0054A67B /* main.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA8606C22424E2F0054A67B /* main.framework */; };
+		1BA8606E22424E2F0054A67B /* main.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA8606C22424E2F0054A67B /* main.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		47CC68BD215C0386001B3A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC68BC215C0386001B3A20 /* AppDelegate.swift */; };
 		47CC68BF215C0386001B3A20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC68BE215C0386001B3A20 /* ViewController.swift */; };
 		47CC68C2215C0386001B3A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CC68C0215C0386001B3A20 /* Main.storyboard */; };
@@ -23,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1B46BBBA223E29DB005C5C98 /* SharedCode.framework in Embed Frameworks */,
+				1BA8606E22424E2F0054A67B /* main.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B46BBB8223E29DB005C5C98 /* SharedCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedCode.framework; path = "../../SharedCode/build/xcode-frameworks/SharedCode.framework"; sourceTree = "<group>"; };
+		1BA8606C22424E2F0054A67B /* main.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = main.framework; path = "../../SharedCode/build/xcode-frameworks/main.framework"; sourceTree = "<group>"; };
 		47CC68B9215C0386001B3A20 /* KotlinIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CC68BC215C0386001B3A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47CC68BE215C0386001B3A20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B46BBB9223E29DB005C5C98 /* SharedCode.framework in Frameworks */,
+				1BA8606D22424E2F0054A67B /* main.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		47CC68B0215C0386001B3A20 = {
 			isa = PBXGroup;
 			children = (
-				1B46BBB8223E29DB005C5C98 /* SharedCode.framework */,
+				1BA8606C22424E2F0054A67B /* main.framework */,
 				47CC68BB215C0386001B3A20 /* KotlinIOS */,
 				47CC68BA215C0386001B3A20 /* Products */,
 			);
